@@ -31,6 +31,8 @@ const articleSchema =  new mongoose.Schema({
     content: String,
 });
 
+//test
+
 const Article = mongoose.model('Article', articleSchema);
 
 // Route requesting all articles
